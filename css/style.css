@@ -1,0 +1,59 @@
+/* ini css */
+.logo-icon {
+    width: 40px;
+    height: 40px;
+   border-radius: 50%;
+   background-image: ;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+}
+
+nav > section {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item {
+    border: 1px solid black;
+    padding: 8px;
+    margin: 2px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.banner-container {
+    border: 1px solid black;
+    height: 258px;
+    background-color: azure;
+    border-radius: 20px;
+}
+
+.facility-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.facility-list > div > div {
+    border-radius: 50%;
+}
+
+.form-result {
+    height: 100px;
+    border: 1px solid black;
+}
+
+.message-us-section {
+    display: flex;
+}
+
+.result-conten {
+    width: 100%;
+}
+
