@@ -22,9 +22,10 @@ nav > section {
     justify-content: space-around;
 }
 
-.nav-item {
-    padding: 8px;
-    margin: 2px;
+.menu {
+    padding: 5px;
+    margin: 5px;
+    align-content: center;
 }
 
 .banner-container {
@@ -53,34 +54,47 @@ nav > section {
 
 }
 
-.form-result {
-    height: 200px;
-    border: 1px solid black;
-    border-radius: 10px;
-}
-
 .message-us-section {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .form {
     width: 500px;
-    margin: 0px 30px 0px 30px;
+    justify-content: space-evenly;
+    align-content: stretch center;
+    
 }
 
-.tabel-form {
-    align-content: space-around;
+
+#input-nama {
+    margin-left: 11%;
+    width: 300px;
+
 }
 
-#submit {
-    width: 400px;
+#tgl-lahir {
+    width: 305px;
+    margin-left: 10px;
+}
+
+#pesan {
+    height: 100px;
+    width: 300px;
+    margin-left: 12%;
+}
+
+.submit {
+    width: 410px;
+}
+
+.form-result {
+    height: 200px;
+    border-radius: 10px;
 }
 
 .result-conten {
     width: 500px;
-    align-self: center;
-    margin: 0px 30px 0px 30px;
 }
 
 @media only screen and (max-width: 600px) {

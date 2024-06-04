@@ -84,7 +84,7 @@
                             <input required id="input-nama" type="text" placeholder="Type Name Here"/></td>
                             <br/>
                             Tangal Lahir:
-                            <input  type="date" name="tgl-lahir"/>
+                            <input id="tgl-lahir" type="date" name="tgl-lahir"/>
                             <br/>
                             Jenis Kelamin:
                             <input type="radio" id="laki-laki" name="gender" value="laki-laki"/>
@@ -93,10 +93,10 @@
                             <input type="radio" id="perempuan" name="gender" value="perempuan"/>
                             <label for="perempuan">Perempuan</label>
                             <br/>
-                            Pesan:
-                            <textarea placeholder="Write Message Here" name="Pesan"></textarea>
+                            <label class="pesan">Pesan</label>
+                            <input id="pesan" type="text" placeholder="Write Message Here" name="Pesan" maxlength="900" min="1"></textarea>
                             <br/>
-                            <input type="submit" value="submit"/>
+                            <input class="submit" type="submit" value="submit"/>
                         
                         </form>
                     </section>
