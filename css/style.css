@@ -1,17 +1,19 @@
 /* ini css */
-.logo-icon {
-    width: 40px;
-    height: 40px;
+.logo {
+   width: 40px;
+   height: 40px;
    border-radius: 50%;
-   background-image: ;
+   background-image: url();
    background-size: cover;
    background-repeat: no-repeat;
+   margin: 5px;
+
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: green;
+    background-color: rgb(168, 113, 3);
 }
 
 nav > section {
@@ -21,39 +23,77 @@ nav > section {
 }
 
 .nav-item {
-    border: 1px solid black;
     padding: 8px;
     margin: 2px;
-    background-color: aqua;
-    border-radius: 10px;
 }
 
 .banner-container {
-    border: 1px solid black;
-    height: 258px;
     background-color: azure;
     border-radius: 20px;
+    margin: 10px;
 }
 
-.facility-list {
+.mySlides {
+    max-width: 100%;
+}
+
+.ourfacility {
+    margin: 10px;
+}
+
+.profil-list {
     display: flex;
     justify-content: space-evenly;
+
 }
 
-.facility-list > div > div {
+.profil-list > div > div {
+    display: flex;
     border-radius: 50%;
+
 }
 
 .form-result {
-    height: 100px;
+    height: 200px;
     border: 1px solid black;
+    border-radius: 10px;
 }
 
 .message-us-section {
     display: flex;
+    justify-content: space-evenly;
+}
+
+.form {
+    width: 500px;
+    margin: 0px 30px 0px 30px;
+}
+
+.tabel-form {
+    align-content: space-around;
+}
+
+#submit {
+    width: 400px;
 }
 
 .result-conten {
-    width: 100%;
+    width: 500px;
+    align-self: center;
+    margin: 0px 30px 0px 30px;
 }
+
+@media only screen and (max-width: 600px) {
+    .header-wrapper {
+        flex-direction: column;
+    }
+    
+    .menu {
+        width: 100%;
+        margin: 5px;
+        flex-direction: column;
+    }
+
+}
+    
 
