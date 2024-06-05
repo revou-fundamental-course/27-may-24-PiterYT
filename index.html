@@ -38,9 +38,10 @@
                         
                         <img class="mySlides"
                         src="asset/3.jpg"/>
-                        
+                        <div>
                         <button onclick="plusDivs(-1)">Previous</button>
-                        <button onclick="plusDivs(1)">Next</button>
+                        <button onclick="plusBanner(1)">Next</button>
+                        </div>
                     </div>
                     </article>
             </section>
@@ -79,24 +80,24 @@
                     
                     <!-- Form -->
                     <section class="form">
-                        <form name="message-form" onsubmit="return validateform()">
+                        <form name="message-form" onsubmit="validateForm()">
                             Name:
-                            <input required id="input-nama" type="text" placeholder="Type Name Here"/></td>
+                            <input id="input-nama" required type="text"/>
                             <br/>
                             Tangal Lahir:
                             <input id="tgl-lahir" type="date" name="tgl-lahir"/>
                             <br/>
                             Jenis Kelamin:
-                            <input type="radio" id="laki-laki" name="gender" value="laki-laki"/>
+                            <input type="radio" id="Kelamin" value="laki-laki"/>
                             <label for="laki-laki">Laki-laki</label>
                             
-                            <input type="radio" id="perempuan" name="gender" value="perempuan"/>
+                            <input type="radio" id="kelamin" value="perempuan"/>
                             <label for="perempuan">Perempuan</label>
                             <br/>
                             <label class="pesan">Pesan</label>
                             <input id="pesan" type="text" placeholder="Write Message Here" name="Pesan" maxlength="900" min="1"></textarea>
                             <br/>
-                            <input class="submit" type="submit" value="submit"/>
+                            <input  type="submit" value="submit"/>
                         
                         </form>
                     </section>
@@ -104,10 +105,10 @@
                     <!-- Result -->
                     <section class="result-conten">
                         <div class="form-result">
-                            <p>Nama: <span id="input-nama"></span>-</p>
-                            <p>Tanggal Lahir: <span id="tgl-lahir"></span>-</p>
-                            <p>Jenis Kelammin: <span id="gender">-</span></p>
-                            <p>Pesan: <span id="pesan"></span>-</p>
+                            <p>Nama: <span id="result-nama"></span>-</p>
+                            <p>Tanggal Lahir: <span id="result-tgl"></span>-</p>
+                            <p>Jenis Kelammin: <span id="result-gender">-</span></p>
+                            <p>Pesan: <span id="result-pesan"></span>-</p>
                         </div>
                     </section>
                 </section>
